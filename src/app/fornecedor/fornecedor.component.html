@@ -1,0 +1,56 @@
+<div class="container">
+    <h1>CADASTRO DE FORNECEDORES</h1>
+    <div class="box">
+    <div class="row">
+
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nome">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Contato">
+        </div>
+      </div>
+
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Selecione a categoria</option>
+        <option value="1">Regional</option>
+        <option value="2">Nacional</option>
+        <option value="3">Internacional</option>
+      </select>
+
+      <div class="form-check">
+        <label class="form-check-label" for="flexCheckChecked">
+            Ativo
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    </div>
+
+    <button type="button" class="btn btn-primary" (click)="saveSupplier()" >Cadastrar</button><br>
+    <button type="button" class="btn btn-primary" >Editar</button>
+    <button type="button" class="btn btn-primary">Excluir</button>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Contato</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+</div>
+

@@ -30,7 +30,8 @@ export class FornecedorComponent {
 
   loadSuppliers(){
     this.supplierService.getSuppliers().subscribe({
-        next: data => this.suppliers = data
+        next: data => this.suppliers = data, 
+        error: () => console.log('error')
     })
     }
 

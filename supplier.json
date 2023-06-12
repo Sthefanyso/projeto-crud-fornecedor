@@ -1,7 +1,74 @@
 {
-    "suppliers": [
-      {
-      
-      } 
-    ]
-  }
+  "suppliers": [
+    {
+      "id": 2,
+      "name": "Kibarato",
+      "active": true,
+      "category": "1",
+      "contact": "11974815200"
+    },
+    {
+      "id": 3,
+      "name": "PeçasFerrolhos",
+      "active": false,
+      "category": "1",
+      "contact": "11945116782"
+    },
+    {
+      "id": 4,
+      "name": "DocesDaVovozinha",
+      "active": true,
+      "category": "1",
+      "contact": "11947615233"
+    },
+    {
+      "id": 6,
+      "name": "Joia Rara",
+      "active": null,
+      "category": "3",
+      "contact": "11954471620"
+    },
+    {
+      "id": 7,
+      "name": "Peças e Mais Peças",
+      "active": false,
+      "category": "3",
+      "contact": "11980456173"
+    },
+    {
+      "id": 8,
+      "name": "Active",
+      "active": true,
+      "category": "3",
+      "contact": "11945162033"
+    },
+    {
+      "id": 9,
+      "name": "Musicaciones",
+      "active": null,
+      "category": "2",
+      "contact": "11964517300"
+    },
+    {
+      "id": 10,
+      "name": "Ferros e Vidros",
+      "active": false,
+      "category": "1",
+      "contact": "11984516230"
+    },
+    {
+      "id": 11,
+      "name": "Buffet",
+      "active": true,
+      "category": "2",
+      "contact": "11974886611"
+    },
+    {
+      "id": 12,
+      "name": "EducaMais",
+      "active": null,
+      "category": "2",
+      "contact": "1194516230"
+    }
+  ]
+}
